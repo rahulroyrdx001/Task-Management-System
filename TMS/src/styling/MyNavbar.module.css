@@ -1,0 +1,9 @@
+.mynavbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-top: 5vh;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}

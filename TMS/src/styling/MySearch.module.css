@@ -1,0 +1,42 @@
+.searchbox{
+    height: 30px;
+    width: 180px;
+    border-radius: 50px;
+    background: white;
+    border:solid #6AD4DD 2px;    
+
+}
+.searchtxt{
+height: 20px;
+width: 130px;
+translate:10px 4px ;
+border: none;
+outline: none;
+line-height: 40px;
+background: white;
+
+}
+.snavigatio{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: red;
+}
+.searchicon{
+    padding-top: 6px;
+    color: white;
+    align-content: center;
+}
+.sicon{
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 40px;
+    color: blue;
+    background: #FBA834;
+    width: 20px;
+    border-radius: 50px;
+    display: flex;
+    translate: 110px -22px;
+    
+}
