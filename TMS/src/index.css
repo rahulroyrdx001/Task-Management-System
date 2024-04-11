@@ -1,5 +1,18 @@
+
 :root{
     background: linear-gradient(#F8F6E3 55%,#97E7E1);
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    display: fixed;
+    
 }
+
+/*
+.elements{
+    display: inline-flexbox;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+*/

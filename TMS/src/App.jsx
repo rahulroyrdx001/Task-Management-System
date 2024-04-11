@@ -11,6 +11,15 @@ function App() {
         <MyAnalytics></MyAnalytics>
         <MyWorkingarea></MyWorkingarea>
       </div>
+      <div className={style.elements}>
+        <div className={style.element1}></div>
+        <div className={style.element2}></div>
+        <div className={style.element4}></div>
+        <div className={style.element5}></div>
+        <div className={style.element6}></div>
+        <div className={style.element7}></div>
+        <div className={style.element3}></div>
+      </div>
     </>
   );
 }
