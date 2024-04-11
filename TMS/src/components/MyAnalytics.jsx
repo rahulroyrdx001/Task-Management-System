@@ -2,7 +2,7 @@ import style from "../styling/analytics.module.css";
 function MyAnalytics() {
   return (
     <>
-      <h1>Analytics</h1>
+      <div className={style.analy}></div>
     </>
   );
 }
