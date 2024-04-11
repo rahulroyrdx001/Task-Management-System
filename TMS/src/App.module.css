@@ -1,3 +1,7 @@
-.mybackground{
-    
+.tracking{
+    display: flex;
+    height: 70vh;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: space-between;
 }
