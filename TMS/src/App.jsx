@@ -2,6 +2,7 @@ import MyNavbar from "./components/MyNavbar";
 import style from "../src/App.module.css";
 import MyWorkingarea from "./components/MyWorkingarea";
 import MyAnalytics from "./components/MyAnalytics";
+import WorkingBoard from "./components/WorkingBoard";
 function App() {
   return (
     <>

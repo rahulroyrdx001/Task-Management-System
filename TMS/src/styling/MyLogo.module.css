@@ -2,9 +2,14 @@
     height: 40px;
     width: 40px;
     border: 2px;
-    background: red;
+    
     padding-left: 0px;
     border-radius: 10px;
     text-align: center;
     
+}
+img{
+    width: 80px;
+    height: 80px;
+    translate: -15px -20px;
 }

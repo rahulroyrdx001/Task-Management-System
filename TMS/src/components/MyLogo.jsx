@@ -1,9 +1,10 @@
 import style from "../styling/MyLogo.module.css"
+import logo from "../assets/logo.png"
 function MyLogo() {
   return (
     <>
       <div className={style.logo}>
-        Logo
+        <img src={logo}/>
       </div>
     </>
   );
