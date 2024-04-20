@@ -82,8 +82,6 @@ export default function WorkingBoard() {
 
   return (
     <DragDropContext onDragEnd={handleDragEnd}>
-      
-
       <div
         style={{
           display: "flex",
@@ -92,12 +90,12 @@ export default function WorkingBoard() {
           alignItems: "center",
           flexDirection: "row",
           width: "auto",
-          height:"auto",
-          
-          margin:"0 auto"
+          height: "auto",
+
+          margin: "0 auto",
         }}
       >
-        <Column title={"TO DO"}  tasks={incomplete} id={"1"} />
+        <Column title={"TO DO"} tasks={incomplete} id={"1"} />
         <Column title={"DONE"} tasks={completed} id={"2"} />
         <Column title={"IN REVIEW"} tasks={inReview} id={"3"} />
         <Column title={"BACKLOG"} tasks={backlog} id={"4"} />
